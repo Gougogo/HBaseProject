@@ -109,6 +109,8 @@ public class HBaseDao {
             }
         }
 
+
+
         //3：在收件箱表中为uid=A增加attends为BCD的最近三条数据
         //3.1首先应该将BCD最近三条数据查出来
         //然后创一个A的put对象，但有3列为BCD，value为对应的值
