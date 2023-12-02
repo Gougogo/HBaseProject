@@ -9,6 +9,8 @@ import java.io.IOException;
  * @auther GouMi
  */
 public class DDLTest {
+
+
     public static void main(String[] args) throws IOException {
         //HBaseDDL.createNameSpace("ddl_namespace");
 
