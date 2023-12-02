@@ -11,15 +11,18 @@ import java.io.IOException;
  */
 public class test {
     public static void main(String[] args) throws IOException {
-        //HBaseDDL.createNameSpace("gougoing");
+        //HBaseDDL.createNameSpace("weibo");
 
         //HBaseDDL.createTable("weibo", "relation", 1, "attends","fans");
         //HBaseDDL.createTable("weibo", "content", 1, "info");
+
         //HBaseDDL.addColFamilyOfTable("weibo", "relation", "fans");
         //HBaseDDL.createTable("weibo", "inbox", 2, "info");
         //HBaseDDL.deleteTable("weibo", "relation");
         //HBaseDao.publishWeiBo("1004", "second msg send.");
+
+
         //HBaseDao.addAttends("1002", "1004", "1005");
-        HBaseDao.getAttendsContent("1002");
+        //HBaseDao.getAttendsContent("1002");
     }
 }
