@@ -13,7 +13,6 @@ import java.io.IOException;
  * @auther GouMi
  */
 public class HBaseConnection {
-    public static Configuration conf;
     public static Connection connection;
     static{
         try {
