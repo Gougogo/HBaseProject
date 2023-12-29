@@ -17,6 +17,7 @@ public class HBaseConnection {
         } catch (IOException e) {
             e.printStackTrace();
         }
+
     }
 
     public static void closeConnection() throws IOException {
