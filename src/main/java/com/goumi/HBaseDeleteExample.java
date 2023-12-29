@@ -5,14 +5,15 @@ package com.goumi;
  * @auther GouMi
  */
 import com.goumi.utils.HBaseConnection;
-import org.apache.hadoop.conf.Configuration;
-import org.apache.hadoop.hbase.HBaseConfiguration;
 import org.apache.hadoop.hbase.TableName;
 import org.apache.hadoop.hbase.client.*;
 import org.apache.hadoop.hbase.filter.CompareFilter;
 import org.apache.hadoop.hbase.filter.SingleColumnValueFilter;
 import org.apache.hadoop.hbase.util.Bytes;
 
+/**
+ * 循环删除列值info:bs=03的数据
+ */
 public class HBaseDeleteExample {
     public static Connection connection = HBaseConnection.connection;
     public static void main(String[] args) {
